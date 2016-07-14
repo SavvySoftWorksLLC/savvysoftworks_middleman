@@ -6158,7 +6158,7 @@ img {
   margin-top: 4px; }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #FEFEEF;
   color: #000078; }
 
 .container {
@@ -6179,9 +6179,6 @@ body {
   background-color: #000078;
   padding: 0px; }
 
-.slider .slides {
-  background-color: white; }
-
 a {
   color: #000078; }
 
@@ -6201,3 +6198,42 @@ footer {
 
 .submit {
   background-color: #000078; }
+
+.rslides_tabs {
+  list-style: none;
+  padding: 0;
+  background: #000078;
+  font-size: 18px;
+  list-style: none;
+  margin: 0 auto 50px;
+  max-width: 540px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%; }
+
+.rslides_tabs li {
+  display: inline;
+  float: none;
+  margin-right: 1px; }
+
+.rslides_tabs a {
+  color: #FEFEEF;
+  width: auto;
+  line-height: 20px;
+  padding: 9px 20px;
+  height: auto;
+  background: transparent;
+  display: inline; }
+
+.rslides_tabs li:first-child {
+  margin-left: 0; }
+
+.rslides_tabs .rslides_here a {
+  background: #fdfdd7;
+  color: #000078;
+  font-weight: bold; }
+
+.caption {
+  color: #000078;
+  font-size: 2em;
+  text-align: center; }
