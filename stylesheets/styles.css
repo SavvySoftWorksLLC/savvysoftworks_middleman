@@ -6158,7 +6158,7 @@ img {
   margin-top: 4px; }
 
 body {
-  background-color: #FEFEEF;
+  background-color: #F5F5F5;
   color: #000078; }
 
 .container {
@@ -6209,7 +6209,8 @@ footer {
   max-width: 540px;
   padding: 10px 0;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
 .rslides_tabs li {
   display: inline;
@@ -6217,7 +6218,7 @@ footer {
   margin-right: 1px; }
 
 .rslides_tabs a {
-  color: #FEFEEF;
+  color: #F5F5F5;
   width: auto;
   line-height: 20px;
   padding: 9px 20px;
@@ -6229,7 +6230,7 @@ footer {
   margin-left: 0; }
 
 .rslides_tabs .rslides_here a {
-  background: #fdfdd7;
+  background: #e8e8e8;
   color: #000078;
   font-weight: bold; }
 
