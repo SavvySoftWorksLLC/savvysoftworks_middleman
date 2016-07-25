@@ -16189,8 +16189,6 @@ $(document).ready(function(){
     //before: function(){},   // Function: Before callback
     //after: function(){}     // Function: After callback
   }); 
-
-
 });
 
 // jQuery Scroll Animations
@@ -16204,16 +16202,19 @@ $('a[href^="#"]').on('click', function(event) {
     }
 });
 
-
-/*
-$('.slider').mouseover(function(){
-  $('.slider').slider('pause');
+// rslides pause on mouseover
+$('rslides').mouseover(function(){
+  $('rslides').slider('pause');
 })
 
-$('.slider').mouseout(function(){
+$('rslides').mouseout(function(){
   // Start slider
-  $('.slider').slider('start');
+  $('rslides').slider('start');
 })
-*/
 
-;
+// redirect after form submit
+$('.submit').click(function() {
+  alert('Thank you, we will be in touch shortly!')
+  window.location = '#top'
+});
+

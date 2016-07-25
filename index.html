@@ -12,8 +12,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/x-icon" href="images/SSWfav.ico" />
 
-  <!-- resonsiveslides.com -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   
 
 </head>
@@ -167,25 +165,26 @@
   <div class="row">
     <form class="col s12" action="http://localhost:9494" method="post">
       <div class="row">
+      <input type="hidden" name="redirect" value="#top">
         <div class="input-field col s6">
           <i class="material-icons prefix">perm_identity</i>
-          <input id="name" type="text" class="validate">
+          <input id="name" name="name" type="text" class="validate">
           <label for="name">Name</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">email</i>
-          <input id="email" type="email" class="validate">
+          <input id="email" name="email" type="email" class="validate">
           <label for="email">Email</label>
         </div>
       </div>
        <div class="row">
         <div class="input-field col s12">
           <i class="material-icons prefix">comment</i>
-          <textarea id="textarea1" class="materialize-textarea" length="140"></textarea>
+          <textarea id="textarea1" name="textarea" class="materialize-textarea" length="500"></textarea>
           <label for="textarea1">Textarea</label>
         </div>
       </div>
-      <button class="btn waves-effect waves-light submit" type="submit" name="action">Submit
+      <button id="submit" class="btn waves-effect waves-light submit" type="submit" name="action">Submit
         <i class="material-icons right">send</i>
       </button>
     </form>
