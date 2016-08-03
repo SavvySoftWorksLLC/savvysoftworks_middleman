@@ -6162,7 +6162,12 @@ body {
   color: #000078; }
 
 .container {
-  font-family: Ubuntu, sans-serif;
+  font-family: Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
+  padding: 8px;
+  width: 80%; }
+
+.slide_container {
+  font-family: Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
   padding: 8px;
   width: 100%; }
 
@@ -6238,3 +6243,16 @@ footer {
   color: #000078;
   font-size: 2em;
   text-align: center; }
+
+.current h5 {
+  padding-top: 1em;
+  padding-left: 1em;
+  margin: 0; }
+
+.current h6 {
+  padding-left: 2em;
+  font-weight: bold; }
+
+.collapsible-body {
+  background-color: #000078;
+  color: #F5F5F5; }
