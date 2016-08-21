@@ -5,16 +5,16 @@
   <meta name="keywords" content="SavvySoftWorks, Paul Scarrone, software, web, applications, apps, websites, webpages, problem, solving, solutions, custom, growth, education, development, programming, Ruby, Rails, Laravel, JavaScript, AngularJS, ReactJS, Node">
   <title>SavvySoftWorks</title>
   <!--Import Google Icon Font-->
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!--Import responsiveslides.css-->
   <link href="stylesheets/responsiveslides.css" rel="stylesheet" />
   <!--Import materialize.css-->
-  <link href="stylesheets/styles.css" rel="stylesheet" />
+  <link href="stylesheets/application.css" rel="stylesheet" />
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/x-icon" href="images/SSWfav.ico" />
 
-  
+
 
 </head>
 
@@ -22,7 +22,7 @@
     <div class="row header" id="top">
   <div class="logo col s12 m3 l9">
     <h1>SavvySoftWorks</h1>
-    <h4>Solving problems and growing your development team.</h4>
+    <h4>Building reliable software and expert development teams</h4>
   </div>
   <div class="col s12 m4 l3 container">
       <p>Paul Scarrone<br/>
@@ -38,10 +38,11 @@
       </p>
   </div>
 </div>
+
     <nav>
   <div class="nav-wrapper">
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-    <ul class="left hide-on-med-and-down">
+    <ul class="right hide-on-med-and-down">
       <li><a href="#about">About Us</a></li>
       <li><a href="#current_clients">Current Clients</a></li>
       <li><a href="#products">Products</a></li>
@@ -55,11 +56,12 @@
     </ul>
   </div>
 </nav>
+
     <div class="parallax-container">
       <div class="parallax"><img src="images/abstract-q-c-640-480-7.jpg"></div>
 </div>
 
-<div class="row col s12 slide_container">
+<div class="has-shadow row col s12 slide_container">
   <ul class="rslides">
     <li>
       <a href="#about">
@@ -87,19 +89,18 @@
     </li>
   </ul>
 </div>
-<ul class"rslider_tab"></ul>
 
 <div class="parallax-container">
       <div class="parallax"><img src="images/abstract-q-c-640-480-7.jpg"></div>
 </div>
-<div class="row col s12">
+<div class="has-shadow row col s12">
   <div class="about container" id="about">
-  <h4 class="center">About Us:</h4>
+  <h4 class="center section-title">About Us</h4>
   <div class="row">
     <div class="col s12 m6">
         <h5 class="center">SavvySoftWorks</h5>
         <p class="light">We develop world class software development teams and software by integrating our engineers in small / medium sized companies. By working alongside your engineers we can increase velocity and productivity while imparting industry best practices into your development process. Primarily we teach how to safely use OpenSource Software, improved code quality through low impact code reviews, and how to build reliable software using TDD. We can work with any major language and have serviced clients using RubyOnRails, Python, PHP, NodeJS, and various front end frameworks like AngularJS and ReactJS.</p>
-    </div> 
+    </div>
     <div class="col s12 m6">
       <h5 class="center">Paul Scarrone</h5>
       <p class="light">When you have a set of skills its hard to escape using them. At SavvySoftWorks we do not directly solicit work but that work comes to us anyways.<br><br>
@@ -117,9 +118,9 @@
 <div class="parallax-container">
       <div class="parallax"><img src="images/abstract-q-c-640-480-7.jpg"></div>
 </div>
-<div class="row col s12">
+<div class="has-shadow row col s12">
   <div class="current_clients container current" id="current_clients">
-  <h4>Current Clients</h4>
+  <h4 class="section-title">Current Clients</h4>
   <ul class="collapsible" data-collapsible="accordion">
     <li>
       <div class="collapsible-header active"><i class="material-icons">filter_drama</i>
@@ -192,17 +193,18 @@
     </li>
   </ul>
 </div>
+
 </div>
 <div class="parallax-container">
       <div class="parallax"><img src="images/abstract-q-c-640-480-7.jpg"></div>
 </div>
-<div class="row col s12">
-  <div class=" products container" id="products">
+<div class="has-shadow row col s12">
+  <div class="products container" id="products">
 
   <div class="row">
     <div class="col s12 m4">
       <div class="icon-block">
-        <h2 class="center"><i class="material-icons">group</i></h2>
+        <h2 class="center"><i class="material-icons md-48">group</i></h2>
         <h4 class="center">Growing Your Development Team</h4>
 
         <p class="light">We develop world class software development teams and software by integrating our engineers in small / medium sized companies. By working alongside your engineers we can increase velocity and productivity while imparting industry best practices into your development process. Primarily we teach how to safely use OpenSource Software, improved code quality through low impact code reviews, and how to build reliable software using TDD.</p>
@@ -211,29 +213,36 @@
 
     <div class="col s12 m4">
       <div class="icon-block">
-        <h2 class="center"><i class="material-icons">email</i></h2>
-        <h4 class="center">savvy_mailer</h4>
+        <h2 class="center"><i class="material-icons md-48">email</i></h2>
+        <h4 class="center">savvy_mailer<br/>&nbsp;</h4>
 
-        <p class="light">Dynamically submit forms from static websites. Starting at $2 a month for unlimited submissions.</p>
+        <p class="light">
+        Open Source contact form micro service for those who don't need a dynamic website. We offer a hosted version of this service for $2 a month which includes unlimited messages.
+        </p>
+        <p class="light">
+          Source: <a href="https://github.com/SavvySoftWorksLLC/savvy_mailer">https://github.com/SavvySoftWorksLLC/savvy_mailer</a>
+        </p>
       </div>
     </div>
 
     <div class="col s12 m4">
       <div class="icon-block">
-        <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-        <h4 class="center">Coming Soon...</h4>
+        <h2 class="center"><i class="material-icons md-48">settings</i></h2>
+        <h4 class="center">Coming Soon...<br/>&nbsp;</h4>
 
-        <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="light">Your Project, Your Dream.</p>
+        <p class="light">We will make your project a reality using the most up to date development practices and technologies. We focus on building the most maintainable, reliable, cost efficient solutions possible. Delivering only the features you need under budget. We will teach your team our techniques and provide documentation, leaving them capable of maintaining your project without further cost from us.</p>
       </div>
     </div>
   </div>
 
 </div>
+
 </div>
 <div class="parallax-container">
       <div class="parallax"><img src="images/abstract-q-c-640-480-7.jpg"></div>
 </div>
-<div class="row col s12">
+<div class="has-shadow row col s12">
   <div class="contact container" id="contact">
   <h4>Contact Us:</h4>
   <div class="row">
@@ -271,6 +280,7 @@
 <div class="parallax-container">
       <div class="parallax"><img src="images/abstract-q-c-640-480-7.jpg"></div>
 </div>
+
     <footer class="container">
   <div class="row">
     <h5>SavvySoftWorks</h5>
@@ -278,7 +288,7 @@
   </div>
 </footer>
 
-    <a href="#top" class="btn returntotop" style="bottom: 16px; right: 16px;"><i class="material-icons left">navigation</i>return to top</a>     
+    <a href="#top" class="btn returntotop" style="bottom: 16px; right: 16px;"><i class="material-icons left">navigation</i>return to top</a>
 
   <script src="javascripts/all.js"></script>
   <script src="javascripts/responsiveslides.js"></script>
