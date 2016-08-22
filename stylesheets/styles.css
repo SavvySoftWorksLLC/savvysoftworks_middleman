@@ -6239,6 +6239,11 @@ body {
 .logo h1 {
   font-family: Oxygen, cursive; }
 
+.headinfo h6 {
+  line-height: 1.5em;
+  font-size: 1.1em;
+  text-align: right; }
+
 .container {
   font-family: Oxygen, Ubuntu, "Trebuchet MS", Helvetica, sans-serif;
   padding: 8px;
