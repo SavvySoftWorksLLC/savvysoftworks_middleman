@@ -6227,7 +6227,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .current_clients .collapsible-header {
   font-weight: 700; }
 .current_clients h5 {
+  padding-top: 1em;
+  padding-left: 1em;
+  margin: 0;
   color: #FCFEFC; }
+.current_clients p {
+  color: #F5F5F5; }
 
 img {
   margin-top: 4px; }
@@ -6329,15 +6334,6 @@ footer {
   color: #000078;
   font-size: 2em;
   text-align: center; }
-
-.current h5 {
-  padding-top: 1em;
-  padding-left: 1em;
-  margin: 0; }
-
-.current h6 {
-  padding-left: 2em;
-  font-weight: bold; }
 
 .collapsible-body {
   background-color: #000078;
