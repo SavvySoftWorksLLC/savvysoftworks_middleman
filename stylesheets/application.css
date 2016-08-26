@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Audiowide);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
 @import "https://fonts.googleapis.com/css?family=Ubuntu";
+@import "https://fonts.googleapis.com/css?family=Quicksand";
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6231,13 +6232,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   padding-top: 1em;
   padding-left: 1em;
   margin: 0;
-  color: #FCFEFC; }
-.current_clients h6 {
-  padding-left: 1em; }
-.current_clients p {
-  color: gainsboro;
-  font-weight: 200;
-  font-family: Oxygen, Ubuntu, Helvetica, sans-serif; }
+  color: #F5F5F5; }
+
+.collapsible-body {
+  font-size: 1.1em;
+  background-color: #000078;
+  color: #e8e8e8;
+  font-weight: 300;
+  font-family: Quicksand, Oxygen, Ubuntu, Helvetica, sans-serif; }
+  .collapsible-body h6 {
+    padding-left: 1em; }
 
 img {
   margin-top: 4px; }
@@ -6339,10 +6343,6 @@ footer {
   color: #000078;
   font-size: 2em;
   text-align: center; }
-
-.collapsible-body {
-  background-color: #000078;
-  color: #F5F5F5; }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
