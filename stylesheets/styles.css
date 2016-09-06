@@ -6259,6 +6259,8 @@ body {
 
 .logo h1 {
   font-family: Oxygen, cursive; }
+.logo a:hover {
+  color: #000078; }
 
 .headinfo h6 {
   line-height: 1.5em;
@@ -6355,3 +6357,6 @@ footer {
   width: 80%;
   margin-top: 1em;
   margin-bottom: 1em; }
+
+.blog article img {
+  max-width: 100%; }
